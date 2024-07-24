@@ -1,0 +1,40 @@
+<suite name="Sanity Pack">
+	<listeners>
+		<listener
+			class-name="com.sevenrmartsupermarket.listeners.ExtentReporter"></listener>
+
+	</listeners>
+	<test name="Accessibility  Pack 1">
+		<classes>
+
+			<class name="com.sevenrmartsupermarket.tests.LoginTest">
+
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Accessibility  Pack 2">
+		<classes>
+
+			<class name="com.sevenrmartsupermarket.tests.LoginTest">
+
+			</class>
+			
+			
+			<class name="com.sevenrmartsupermarket.tests.HomeTest">
+
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Accessibility  Pack 3">
+		<classes>
+
+			<class name="com.sevenrmartsupermarket.tests.LoginTest">
+
+			</class>
+		</classes>
+	</test>
+
+
+</suite>
