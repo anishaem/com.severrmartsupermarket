@@ -22,8 +22,8 @@ public class AdminUserTest extends Base {
 		loginpage = new LoginPage(driver);
         homepage=loginpage.login();
 	    
-		homepage.clickOn_AdminUser();
-		String actualProfile = adminUser.getProfileName();
+        adminUser=homepage.clickOn_AdminUser();
+		String actualProfile = adminUser.getHeader();
 		String expectedProfile = "Admin Users";
 		Assert.assertEquals(actualProfile, expectedProfile);
 	}

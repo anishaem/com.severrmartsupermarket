@@ -39,7 +39,7 @@ public class AdminUserPage {
 
 	}
 
-	public String getProfileName()
+	public String getHeader()
 
 	{
 		return adminProfileElement.getText();
